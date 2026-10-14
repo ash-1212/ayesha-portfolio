@@ -1,0 +1,30 @@
+.contact{position:relative;overflow:hidden;isolation:isolate;padding:clamp(4rem,10vh,8rem) clamp(1.25rem,4vw,3.5rem) 2rem;background:var(--teal);color:var(--bg)}
+.cb{position:absolute;z-index:-1;pointer-events:none}
+.cb-y{width:clamp(10rem,22vw,20rem);aspect-ratio:1;border-radius:50%;background:var(--yellow);right:8%;top:22%;opacity:.9}
+.cb-c{width:clamp(9rem,18vw,16rem);height:clamp(7rem,14vw,12rem);border-radius:999px 999px 0 0;background:var(--coral);left:-2rem;bottom:14%}
+.glass-d{background:linear-gradient(135deg,rgba(249,250,244,.2),rgba(249,250,244,.07));border:1px solid rgba(249,250,244,.3);-webkit-backdrop-filter:blur(18px) saturate(1.3);backdrop-filter:blur(18px) saturate(1.3);box-shadow:0 16px 40px -20px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.3)}
+.contact .about-tag{color:var(--bg)}.contact .about-tag b{color:var(--teal)}
+.contact-title{margin:0 0 clamp(2rem,5vw,4rem);font:400 clamp(2.6rem,7.6vw,8rem)/1 'Anton',Impact,sans-serif;max-width:14ch}
+.contact-title span{color:var(--yellow)}
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(1.5rem,4vw,4rem);align-items:start}
+.contact-info>p:first-child{margin:0 0 1.2rem;max-width:30rem;line-height:1.7;font-size:clamp(1rem,1.25vw,1.15rem)}
+.avail{display:inline-flex;align-items:center;gap:.6rem;margin:0 0 1.6rem;padding:.5rem 1rem;border-radius:99px;font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.reach{list-style:none;margin:0;padding:0;display:grid;gap:.9rem;max-width:26rem}
+.reach a{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.3rem;border-radius:18px;font-weight:700;transition:transform .45s var(--ease),background .35s}
+.reach a:hover{transform:translateX(6px);background:rgba(249,250,244,.28)}
+.reach i{font-style:normal;transition:transform .45s var(--ease)}.reach a:hover i{transform:translate(3px,-3px)}
+.cform{display:grid;gap:1.2rem;padding:clamp(1.4rem,3vw,2.4rem);border-radius:28px}
+.cform label{display:grid;gap:.45rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.cform input,.cform textarea{width:100%;padding:.95rem 1.1rem;border-radius:16px;border:1px solid rgba(249,250,244,.28);background:rgba(74,97,99,.45);color:var(--bg);font:500 1rem 'DM Sans',sans-serif;letter-spacing:0;text-transform:none;transition:border-color .3s,box-shadow .3s;resize:vertical}
+.cform ::placeholder{color:rgba(249,250,244,.7)}
+.cform input:focus,.cform textarea:focus{outline:none;border-color:var(--yellow);box-shadow:0 0 0 3px rgba(255,201,75,.35)}
+.send{display:inline-flex;justify-content:center;align-items:center;gap:.8rem;padding:1rem 1.6rem;border:0;border-radius:99px;background:var(--yellow);color:var(--teal);font:700 1rem 'DM Sans',sans-serif;cursor:pointer;transition:background .35s,transform .45s var(--ease)}
+.send i{font-style:normal;transition:transform .45s var(--ease)}
+.send:hover:not(:disabled){background:var(--coral);transform:translateY(-2px)}.send:hover i{transform:translateX(6px)}
+.send:disabled{opacity:.7;cursor:progress}
+.status{margin:0;min-height:1.4em;font-weight:500;line-height:1.4}.status.ok{color:var(--yellow)}.status.err{color:#fff}
+.contact a:focus-visible,.contact button:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;margin-top:clamp(3rem,7vw,6rem);padding-top:1.4rem;border-top:1px solid rgba(249,250,244,.25);font-size:.9rem}
+.foot p{margin:0}.foot a{font-weight:700}.foot a:hover{color:var(--yellow)}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr}.cb-y{right:-2rem;top:12%}}
+.hp{display:none}
