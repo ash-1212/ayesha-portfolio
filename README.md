@@ -47,7 +47,7 @@ Never commit your `.env` file (it is already in `.gitignore`). On Netlify, add b
 1. Push this repository to GitHub.
 2. In Netlify choose **Add new site → Import an existing project** and select the repo. Build settings are read from `netlify.toml` (`npm run build`, publish `dist`).
 3. Add the two environment variables above and deploy.
-4. After the first deploy, set `VITE_SITE_URL`, and replace `YOUR-SITE.netlify.app` in `public/robots.txt`, `public/sitemap.xml` and `.env.production`, then push again.
+4. After the first deploy, set `VITE_SITE_URL` to your live address and replace the placeholder address in `public/robots.txt`, `public/sitemap.xml` and `.env.production`, then push again.
 
 ## Author
 Ayesha Nazish — [GitHub](https://github.com/ash-1212) · [LinkedIn](https://www.linkedin.com/in/ayesha-nazish-452048274)
