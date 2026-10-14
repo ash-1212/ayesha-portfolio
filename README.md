@@ -2,7 +2,7 @@
 
 Personal portfolio of **Ayesha Nazish**, Full Stack (MERN) Developer with applied AI/ML experience.
 
-**Live site:** <!-- add your live link here after deployment -->
+**Live site:** https://ayeshanazish-portfolio.netlify.app
 
 ## Sections
 Hero · About · Services · Projects · Contact (with working contact form and downloadable resume)
